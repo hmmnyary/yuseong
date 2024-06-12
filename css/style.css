@@ -309,14 +309,10 @@ body {
     gap: 3rem;
 }
 .program .inner .item_wrap .item {
-    display: flex;
-    gap: 30px;
-    align-items: center;
     background-color: #fff;
     border-radius: 25px;
     padding: 3rem;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); 
     transition: 0.5s;
     border: 1px solid #fff;
 }
@@ -324,7 +320,13 @@ body {
     border: 1px solid #4478FF;
     transform: translateY(1%);
 }
-.program .inner .item_wrap .item p {
+.program .inner .item_wrap .item a {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+.program .inner .item_wrap .item >a p {
     background-color: #4478FF;
     width: 80px;
     height: 80px;
